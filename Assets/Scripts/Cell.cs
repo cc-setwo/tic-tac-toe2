@@ -6,7 +6,6 @@ namespace TicTacToe
     public class Cell : MonoBehaviour
     {
         public bool IsOccupied { get; private set; }
-        public int Index => _index;
 
         [SerializeField] private int _index;
         private Action<Vector2, int> _callback;
